@@ -351,9 +351,7 @@ Separator
     margin-right: 15px;
     border-radius: 0px;
 }
-/*.btn-default:active, .btn-default:hover  {
-    background: transparent;
-}*/
+
 .btn-lg,
 .btn-group-lg > .btn {
     padding: 8px;
@@ -571,3 +569,63 @@ font-size: 6rem;
 	top:0;
 	left:0;
 }
+
+/* abouts */
+.abouts {
+    background: url(../images/46112264-Raw-Beef-steak-and-fresh-ingredients-for-cooking-on-rustic-background-top-view-banner-Healthy-and-di-Stock-Photo.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.abouts_content {
+    padding: 120px 30px;
+    display: inline-block;
+}
+
+.single_abouts_text h4,
+.single_abouts_text h3 {
+    color: #000000;
+}
+
+.abouts_content_area {
+    background: url(../images/textbg.jpg) center center no-repeat;
+    padding: 30px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* features */
+.features{
+	background:url(../images/ftbg.jpg) center center no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;	
+}
+
+.main_features_content_area {
+    padding: 120px 0px;
+    display: inline-block;
+}
+
+.main_features_content {
+    background: url(../images/ft-1.jpg) right center no-repeat;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.single_features_text {
+    background: url(../images/textbg.jpg) center center no-repeat;
+    padding: 30px;
+    background-size: cover;
+}
+
+/* delivery  */
