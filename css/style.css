@@ -516,3 +516,57 @@ font-size: 6rem;
 }
 
 /* Price */
+.price .main_price_content .head_title h3 {
+    color: #fff;
+}
+
+.price .main_price_content .head_title h4 {
+    color: #fff;
+    font-family: 'Pacifico',sans-serif;
+    font-size: 1.876rem;
+}
+
+.price {
+    background: url(../images/newsbg.jpg) no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;	
+    padding-bottom:120px;
+}
+
+.single_news_one {
+    background: url(../images/newsone.jpg) left center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.single_news_two {
+    background: url(../images/newstwo.jpg) right center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.single_news_three {
+    background: url(../images/newsthree.jpg) left center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.single_news_text {
+    background: #fff;
+    padding: 30px;
+    text-align: left;
+}
+
+.single_news_text ul li {
+    background: url(../images/pkli.png) left center no-repeat;
+    padding: 15px 0px 15px 60px;
+    margin-top: 20px;
+}
