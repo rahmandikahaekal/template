@@ -7,10 +7,6 @@
 
 jQuery(document).ready(function ($) {
 
-
-
-
-
 	jQuery('.scrollup').click(function () {
 		$("html, body").animate({scrollTop: 0}, 2000);
 		return false;
@@ -52,3 +48,12 @@ jQuery(document).ready(function ($) {
  new WOW().init();
 
 });
+
+
+    jQuery('button.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+          $('html, body').stop().animate({
+              scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    }); 
