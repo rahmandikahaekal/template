@@ -272,6 +272,9 @@ h1 span {
     font-weight: 400;
 }
 
+/* for placeholder changes */
+
+
 /* Header top menu css */
 
 .header_top_menu{
@@ -310,15 +313,17 @@ a.navbar-brand.our_logo{
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 300;
+    top: 0; 
+	left: 0; 
+	right: 0; 
+	z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color: #000;
 	height:80px;
+	
 }
+
 .menu-scroll .header_top_menu{
 	display:none;
 }
@@ -329,6 +334,7 @@ a.navbar-brand.our_logo{
 .main_menu_bg{
 	background:rgba(0, 0, 0, .45);
 	height: 80px;
+	
 }
 .navbar-default {
     background-color: transparent;
@@ -569,4 +575,111 @@ font-size: 6rem;
     background: url(../images/pkli.png) left center no-repeat;
     padding: 15px 0px 15px 60px;
     margin-top: 20px;
+}
+
+/* footer widget */
+.footer_widget{
+    background:url(../images/footerbg.jpg) center top no-repeat scroll;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+}
+
+.footer_widget_content{
+	color:#fff;
+}
+
+.detail_widget {
+	padding-bottom: 50px;
+	padding-top:60px;
+}
+
+.detail_widget h3{
+    font-size:1.875rem;
+
+	font-family: 'Pacifico', cursive;	
+}
+
+.detail_widget_info p{
+	margin-top:40px;
+}
+
+.detail_widget_info p span{
+	display:block;
+}
+
+.detail_widget_info p span.phone_email{
+	margin-top:15px;
+}
+
+.footer_socail_icon{
+	margin-top:90px;
+}
+
+.footer_socail_icon a{
+	padding:5px;
+}
+
+.footer_socail_icon a i{
+	font-size:25px;
+	color:#e7a331;
+}
+
+.footer {
+    background: #000;
+}
+
+.footer .copyright p {
+    padding: 25px;
+    color: #fff;
+}
+
+.footer .copyright p i {
+    padding: 0px 10px;
+    color: #ff0095;
+}
+
+.footer .copyright p a {
+    padding: 0 10px;
+    color: orange;
+}
+
+/* scroll up */
+
+
+.scrollup{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+    opacity: .3;
+	position: fixed;
+	bottom: 20px;
+	right: 25px;
+	color: #fff;
+	cursor: pointer;
+	background-color: #000;
+	z-index: 1000;
+	transition: opacity .5s, background-color .5s;
+	-moz-transition: opacity .5s, background-color .5s;
+	-webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+    background-color: #e7a331;
+    opacity: 1;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -7px;
+    margin-left: -8px;
+    text-decoration: none;
 }
